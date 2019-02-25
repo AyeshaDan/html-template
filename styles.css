@@ -1,2 +1,45 @@
 /* CSS styles */
+p {
+  color: grey;
+  font-family: sans-serif;
+  text-align: center;
+}
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 50pt;
+  padding-bottom: 1em;
+  padding-top: 1.5em;
+}
+li {
+  color: grey;
+  font-family: sans-serif;
+  font-style: italic;
+}
+img {
+  height: 300px;
+}
 
+.header-image {
+  height: 100%;
+  width: 100%;
+  border-left: 7em;
+  border-right: 7em;
+  }
+
+.container {
+  position: relative;
+  text-align: center;
+
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: sans-serif;
+  font-size: 45pt;
+  font-style: bolder;
+}
